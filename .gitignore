@@ -1,0 +1,13 @@
+.idea/
+.dockerignore
+build/
+dist/
+nvalid.egg-info/
+all-for-deb/
+setenv.sh
+build.sh
+docker-compose.yml
+mymetric.prom
+nvalid-local.ini
+.pypirc
+setup.cfg

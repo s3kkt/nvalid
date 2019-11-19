@@ -1,2 +1,2 @@
 # nvalid
-Nginx config fails alerter
+nginx config validator
