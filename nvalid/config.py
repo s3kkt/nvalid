@@ -24,7 +24,7 @@ def read_config(config_path):
 
 
 MPATH = os.getenv('METRICS_PATH', '/var/lib/prometheus/')
-MNAME = os.getenv('METRICS_PATH', 'nginx_config_status.prom')
+MNAME = os.getenv('METRICS_NAME', 'nginx_config_status.prom')
 TIMEOUT = int(os.getenv('CHECK_TIMEOUT', 5))
 FTIMEOUT = int(os.getenv('FAIL_TIMEOUT', 300))
 SLACK_CHAN = os.getenv("SLACK_CHANNEL")
