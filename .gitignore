@@ -1,5 +1,6 @@
 .idea/
 .dockerignore
+Dockerfile
 build/
 dist/
 nvalid.egg-info/
